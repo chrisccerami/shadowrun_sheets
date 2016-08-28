@@ -2,5 +2,5 @@
 
 ## Shade
 - Technomancer
-- Career Karma: 50
-- Career Nuyen: 75,400
+- Career Karma: 65
+- Career Nuyen: 135,400

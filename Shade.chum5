@@ -28,7 +28,7 @@
 	<sex>No</sex>
 	<age>25</age>
 	<eyes>Grey</eyes>
-	<height>10ft</height>
+	<height>11ft standing/7ft seated</height>
 	<weight>750</weight>
 	<skin>Brown</skin>
 	<hair>Silver</hair>
@@ -39,7 +39,7 @@
 	<alias>Shade</alias>
 	<playername>Chris</playername>
 	<gamenotes />
-	<karma>1</karma>
+	<karma>4</karma>
 	<totalkarma>0</totalkarma>
 	<special>0</special>
 	<totalspecial>0</totalspecial>
@@ -54,7 +54,7 @@
 	<burntstreetcred>0</burntstreetcred>
 	<created>True</created>
 	<maxavail>12</maxavail>
-	<nuyen>64550</nuyen>
+	<nuyen>119150</nuyen>
 	<startingnuyen>6000</startingnuyen>
 	<adeptwaydiscount>0</adeptwaydiscount>
 	<sumtoten>10</sumtoten>
@@ -246,7 +246,7 @@
 	<magenabled>False</magenabled>
 	<initiategrade>0</initiategrade>
 	<resenabled>True</resenabled>
-	<submersiongrade>0</submersiongrade>
+	<submersiongrade>1</submersiongrade>
 	<groupmember>False</groupmember>
 	<groupname />
 	<groupnotes />
@@ -846,7 +846,7 @@
 			<default>True</default>
 			<rating>3</rating>
 			<base>0</base>
-			<karma>1</karma>
+			<karma>3</karma>
 			<freelevels>0</freelevels>
 			<ratingmax>12</ratingmax>
 			<knowledge>False</knowledge>
@@ -1260,7 +1260,7 @@
 			<default>True</default>
 			<rating>7</rating>
 			<base>0</base>
-			<karma>6</karma>
+			<karma>7</karma>
 			<freelevels>0</freelevels>
 			<ratingmax>12</ratingmax>
 			<knowledge>False</knowledge>
@@ -2354,6 +2354,54 @@
 			<group>False</group>
 			<mademan>False</mademan>
 		</contact>
+		<contact>
+			<name>The Professor</name>
+			<role>Club Boy</role>
+			<location>The trix</location>
+			<connection>2</connection>
+			<loyalty>1</loyalty>
+			<type>Contact</type>
+			<file />
+			<relative />
+			<notes />
+			<groupname />
+			<colour>0</colour>
+			<free>False</free>
+			<group>False</group>
+			<mademan>False</mademan>
+		</contact>
+		<contact>
+			<name>Alquamire</name>
+			<role>Mr. Johnson</role>
+			<location>Seattle</location>
+			<connection>5</connection>
+			<loyalty>1</loyalty>
+			<type>Contact</type>
+			<file />
+			<relative />
+			<notes />
+			<groupname />
+			<colour>0</colour>
+			<free>False</free>
+			<group>False</group>
+			<mademan>False</mademan>
+		</contact>
+		<contact>
+			<name>Klonk</name>
+			<role>Technomancer Trainer</role>
+			<location>The trix</location>
+			<connection>1</connection>
+			<loyalty>1</loyalty>
+			<type>Contact</type>
+			<file />
+			<relative />
+			<notes />
+			<groupname />
+			<colour>0</colour>
+			<free>False</free>
+			<group>False</group>
+			<mademan>False</mademan>
+		</contact>
 	</contacts>
 	<spells />
 	<foci />
@@ -2790,7 +2838,7 @@
 			<guid>60e53b5b-8812-4d2f-a46e-4ebacac083fa</guid>
 			<name>Transys Avalon</name>
 			<category>Commlinks</category>
-			<armorcapacity>[2]</armorcapacity>
+			<armorcapacity>True</armorcapacity>
 			<maxrating>0</maxrating>
 			<rating>0</rating>
 			<qty>1</qty>
@@ -2800,27 +2848,12 @@
 			<bonded>False</bonded>
 			<equipped>True</equipped>
 			<homenode>False</homenode>
-			<overclocked>False</overclocked>
-			<bonus />
-			<source>SR5</source>
-			<page>438</page>
-			<devicerating>6</devicerating>
-			<attack>0</attack>
-			<sleaze>0</sleaze>
-			<dataprocessing>6</dataprocessing>
-			<firewall>6</firewall>
-			<gearname />
-			<children />
-			<location />
-			<notes />
-			<discountedcost>False</discountedcost>
-			<active>False</active>
-		</gear>
+			<overclocked>False</overclocked><bonus></bonus><source>SR5</source><page>438</page><devicerating>6</devicerating><attack>0</attack><sleaze>0</sleaze><dataprocessing>6</dataprocessing><firewall>6</firewall><gearname /><children /><location /><notes /><discountedcost>False</discountedcost><active>False</active></gear>
 		<gear>
 			<guid>5dc462e5-cc25-4a1f-bd32-f4dd7a875b13</guid>
 			<name>Renraku Sensei</name>
 			<category>Commlinks</category>
-			<armorcapacity>[2]</armorcapacity>
+			<armorcapacity>True</armorcapacity>
 			<maxrating>0</maxrating>
 			<rating>0</rating>
 			<qty>3</qty>
@@ -2830,22 +2863,7 @@
 			<bonded>False</bonded>
 			<equipped>True</equipped>
 			<homenode>False</homenode>
-			<overclocked>False</overclocked>
-			<bonus />
-			<source>SR5</source>
-			<page>438</page>
-			<devicerating>3</devicerating>
-			<attack>0</attack>
-			<sleaze>0</sleaze>
-			<dataprocessing>3</dataprocessing>
-			<firewall>3</firewall>
-			<gearname />
-			<children />
-			<location />
-			<notes />
-			<discountedcost>False</discountedcost>
-			<active>False</active>
-		</gear>
+			<overclocked>False</overclocked><bonus></bonus><source>SR5</source><page>438</page><devicerating>3</devicerating><attack>0</attack><sleaze>0</sleaze><dataprocessing>3</dataprocessing><firewall>3</firewall><gearname /><children /><location /><notes /><discountedcost>False</discountedcost><active>False</active></gear>
 		<gear>
 			<guid>3803378a-a12d-420b-b006-0acf1ce7d01e</guid>
 			<name>Armor</name>
@@ -2867,20 +2885,7 @@
 			<extra />
 			<bonded>False</bonded>
 			<equipped>True</equipped>
-			<homenode>False</homenode>
-			<bonus />
-			<source>SR5</source>
-			<page>245</page>
-			<devicerating>0</devicerating>
-			<gearname />
-			<matrixcmfilled>0</matrixcmfilled>
-			<conditionmonitor>8</conditionmonitor>
-			<includedinparent>False</includedinparent>
-			<children />
-			<location />
-			<notes />
-			<discountedcost>False</discountedcost>
-		</gear>
+			<homenode>False</homenode><bonus></bonus><source>SR5</source><page>245</page><devicerating>0</devicerating><gearname /><matrixcmfilled>0</matrixcmfilled><conditionmonitor>8</conditionmonitor><includedinparent>False</includedinparent><children /><location /><notes /><discountedcost>False</discountedcost></gear>
 		<gear>
 			<guid>d27beb24-c9a3-4cdd-b236-180dd6d38656</guid>
 			<name>Baby Monitor</name>
@@ -2902,20 +2907,7 @@
 			<extra />
 			<bonded>False</bonded>
 			<equipped>True</equipped>
-			<homenode>False</homenode>
-			<bonus />
-			<source>SR5</source>
-			<page>245</page>
-			<devicerating>0</devicerating>
-			<gearname />
-			<matrixcmfilled>0</matrixcmfilled>
-			<conditionmonitor>8</conditionmonitor>
-			<includedinparent>False</includedinparent>
-			<children />
-			<location />
-			<notes />
-			<discountedcost>False</discountedcost>
-		</gear>
+			<homenode>False</homenode><bonus></bonus><source>SR5</source><page>245</page><devicerating>0</devicerating><gearname /><matrixcmfilled>0</matrixcmfilled><conditionmonitor>8</conditionmonitor><includedinparent>False</includedinparent><children /><location /><notes /><discountedcost>False</discountedcost></gear>
 		<gear>
 			<guid>fbf6eca2-765c-416d-9460-45f4269ca430</guid>
 			<name>Biofeedback</name>
@@ -2937,20 +2929,7 @@
 			<extra />
 			<bonded>False</bonded>
 			<equipped>True</equipped>
-			<homenode>False</homenode>
-			<bonus />
-			<source>SR5</source>
-			<page>245</page>
-			<devicerating>0</devicerating>
-			<gearname />
-			<matrixcmfilled>0</matrixcmfilled>
-			<conditionmonitor>8</conditionmonitor>
-			<includedinparent>False</includedinparent>
-			<children />
-			<location />
-			<notes />
-			<discountedcost>False</discountedcost>
-		</gear>
+			<homenode>False</homenode><bonus></bonus><source>SR5</source><page>245</page><devicerating>0</devicerating><gearname /><matrixcmfilled>0</matrixcmfilled><conditionmonitor>8</conditionmonitor><includedinparent>False</includedinparent><children /><location /><notes /><discountedcost>False</discountedcost></gear>
 		<gear>
 			<guid>afdd95ce-f2d4-4db9-978e-72227af6039a</guid>
 			<name>Biofeedback Filter</name>
@@ -2972,20 +2951,7 @@
 			<extra />
 			<bonded>False</bonded>
 			<equipped>True</equipped>
-			<homenode>False</homenode>
-			<bonus />
-			<source>SR5</source>
-			<page>245</page>
-			<devicerating>0</devicerating>
-			<gearname />
-			<matrixcmfilled>0</matrixcmfilled>
-			<conditionmonitor>8</conditionmonitor>
-			<includedinparent>False</includedinparent>
-			<children />
-			<location />
-			<notes />
-			<discountedcost>False</discountedcost>
-		</gear>
+			<homenode>False</homenode><bonus></bonus><source>SR5</source><page>245</page><devicerating>0</devicerating><gearname /><matrixcmfilled>0</matrixcmfilled><conditionmonitor>8</conditionmonitor><includedinparent>False</includedinparent><children /><location /><notes /><discountedcost>False</discountedcost></gear>
 		<gear>
 			<guid>74a083e2-22bc-4812-934e-585dc045bcf2</guid>
 			<name>Blackout</name>
@@ -3007,20 +2973,7 @@
 			<extra />
 			<bonded>False</bonded>
 			<equipped>True</equipped>
-			<homenode>False</homenode>
-			<bonus />
-			<source>SR5</source>
-			<page>245</page>
-			<devicerating>0</devicerating>
-			<gearname />
-			<matrixcmfilled>0</matrixcmfilled>
-			<conditionmonitor>8</conditionmonitor>
-			<includedinparent>False</includedinparent>
-			<children />
-			<location />
-			<notes />
-			<discountedcost>False</discountedcost>
-		</gear>
+			<homenode>False</homenode><bonus></bonus><source>SR5</source><page>245</page><devicerating>0</devicerating><gearname /><matrixcmfilled>0</matrixcmfilled><conditionmonitor>8</conditionmonitor><includedinparent>False</includedinparent><children /><location /><notes /><discountedcost>False</discountedcost></gear>
 		<gear>
 			<guid>34a34e5e-b91b-413c-a194-bd64ee8d04bb</guid>
 			<name>Decrypt</name>
@@ -3042,20 +2995,7 @@
 			<extra />
 			<bonded>False</bonded>
 			<equipped>True</equipped>
-			<homenode>False</homenode>
-			<bonus />
-			<source>SR5</source>
-			<page>245</page>
-			<devicerating>0</devicerating>
-			<gearname />
-			<matrixcmfilled>0</matrixcmfilled>
-			<conditionmonitor>8</conditionmonitor>
-			<includedinparent>False</includedinparent>
-			<children />
-			<location />
-			<notes />
-			<discountedcost>False</discountedcost>
-		</gear>
+			<homenode>False</homenode><bonus></bonus><source>SR5</source><page>245</page><devicerating>0</devicerating><gearname /><matrixcmfilled>0</matrixcmfilled><conditionmonitor>8</conditionmonitor><includedinparent>False</includedinparent><children /><location /><notes /><discountedcost>False</discountedcost></gear>
 		<gear>
 			<guid>9455e927-8a5b-4381-8165-3bfae3997327</guid>
 			<name>Exploit</name>
@@ -3077,20 +3017,7 @@
 			<extra />
 			<bonded>False</bonded>
 			<equipped>True</equipped>
-			<homenode>False</homenode>
-			<bonus />
-			<source>SR5</source>
-			<page>245</page>
-			<devicerating>0</devicerating>
-			<gearname />
-			<matrixcmfilled>0</matrixcmfilled>
-			<conditionmonitor>8</conditionmonitor>
-			<includedinparent>False</includedinparent>
-			<children />
-			<location />
-			<notes />
-			<discountedcost>False</discountedcost>
-		</gear>
+			<homenode>False</homenode><bonus></bonus><source>SR5</source><page>245</page><devicerating>0</devicerating><gearname /><matrixcmfilled>0</matrixcmfilled><conditionmonitor>8</conditionmonitor><includedinparent>False</includedinparent><children /><location /><notes /><discountedcost>False</discountedcost></gear>
 		<gear>
 			<guid>6d8bed63-b01e-45af-af81-435f7b890417</guid>
 			<name>Fork</name>
@@ -3112,20 +3039,7 @@
 			<extra />
 			<bonded>False</bonded>
 			<equipped>True</equipped>
-			<homenode>False</homenode>
-			<bonus />
-			<source>SR5</source>
-			<page>245</page>
-			<devicerating>0</devicerating>
-			<gearname />
-			<matrixcmfilled>0</matrixcmfilled>
-			<conditionmonitor>8</conditionmonitor>
-			<includedinparent>False</includedinparent>
-			<children />
-			<location />
-			<notes />
-			<discountedcost>False</discountedcost>
-		</gear>
+			<homenode>False</homenode><bonus></bonus><source>SR5</source><page>245</page><devicerating>0</devicerating><gearname /><matrixcmfilled>0</matrixcmfilled><conditionmonitor>8</conditionmonitor><includedinparent>False</includedinparent><children /><location /><notes /><discountedcost>False</discountedcost></gear>
 		<gear>
 			<guid>2e556f12-cede-4a35-9b92-2090b6ef80f8</guid>
 			<name>Lockdown</name>
@@ -3147,20 +3061,7 @@
 			<extra />
 			<bonded>False</bonded>
 			<equipped>True</equipped>
-			<homenode>False</homenode>
-			<bonus />
-			<source>SR5</source>
-			<page>245</page>
-			<devicerating>0</devicerating>
-			<gearname />
-			<matrixcmfilled>0</matrixcmfilled>
-			<conditionmonitor>8</conditionmonitor>
-			<includedinparent>False</includedinparent>
-			<children />
-			<location />
-			<notes />
-			<discountedcost>False</discountedcost>
-		</gear>
+			<homenode>False</homenode><bonus></bonus><source>SR5</source><page>245</page><devicerating>0</devicerating><gearname /><matrixcmfilled>0</matrixcmfilled><conditionmonitor>8</conditionmonitor><includedinparent>False</includedinparent><children /><location /><notes /><discountedcost>False</discountedcost></gear>
 		<gear>
 			<guid>ba8c2d0a-e1f1-4e19-b0e1-1ce6ac7c633c</guid>
 			<name>Sneak</name>
@@ -3182,20 +3083,7 @@
 			<extra />
 			<bonded>False</bonded>
 			<equipped>True</equipped>
-			<homenode>False</homenode>
-			<bonus />
-			<source>SR5</source>
-			<page>245</page>
-			<devicerating>0</devicerating>
-			<gearname />
-			<matrixcmfilled>0</matrixcmfilled>
-			<conditionmonitor>8</conditionmonitor>
-			<includedinparent>False</includedinparent>
-			<children />
-			<location />
-			<notes />
-			<discountedcost>False</discountedcost>
-		</gear>
+			<homenode>False</homenode><bonus></bonus><source>SR5</source><page>245</page><devicerating>0</devicerating><gearname /><matrixcmfilled>0</matrixcmfilled><conditionmonitor>8</conditionmonitor><includedinparent>False</includedinparent><children /><location /><notes /><discountedcost>False</discountedcost></gear>
 		<gear>
 			<guid>245fcff9-ab30-4073-bbd4-1b0b79c5c5a9</guid>
 			<name>Stealth</name>
@@ -3217,20 +3105,7 @@
 			<extra />
 			<bonded>False</bonded>
 			<equipped>True</equipped>
-			<homenode>False</homenode>
-			<bonus />
-			<source>SR5</source>
-			<page>245</page>
-			<devicerating>0</devicerating>
-			<gearname />
-			<matrixcmfilled>0</matrixcmfilled>
-			<conditionmonitor>8</conditionmonitor>
-			<includedinparent>False</includedinparent>
-			<children />
-			<location />
-			<notes />
-			<discountedcost>False</discountedcost>
-		</gear>
+			<homenode>False</homenode><bonus></bonus><source>SR5</source><page>245</page><devicerating>0</devicerating><gearname /><matrixcmfilled>0</matrixcmfilled><conditionmonitor>8</conditionmonitor><includedinparent>False</includedinparent><children /><location /><notes /><discountedcost>False</discountedcost></gear>
 		<gear>
 			<guid>0caa97b9-9602-4199-a3e0-fd31ac575764</guid>
 			<name>Mapsoft</name>
@@ -3253,6 +3128,63 @@
 			<bonded>False</bonded>
 			<equipped>True</equipped>
 			<homenode>False</homenode><bonus><selecttext /></bonus><source>SR5</source><page>441</page><devicerating>0</devicerating><gearname /><matrixcmfilled>0</matrixcmfilled><conditionmonitor>8</conditionmonitor><includedinparent>False</includedinparent><children /><location /><notes /><discountedcost>False</discountedcost></gear>
+		<gear>
+			<guid>c02f89b1-60aa-4fd1-adcc-2ecf1b852ae3</guid>
+			<name>Browse</name>
+			<category>Common Programs</category>
+			<capacity />
+			<armorcapacity />
+			<minrating>0</minrating>
+			<maxrating>0</maxrating>
+			<rating>0</rating>
+			<qty>1</qty>
+			<avail>0</avail>
+			<avail3 />
+			<avail6 />
+			<avail10 />
+			<cost>80</cost>
+			<cost3 />
+			<cost6 />
+			<cost10 />
+			<extra />
+			<bonded>False</bonded>
+			<equipped>True</equipped>
+			<homenode>False</homenode><bonus></bonus><source>SR5</source><page>245</page><devicerating>0</devicerating><gearname /><matrixcmfilled>0</matrixcmfilled><conditionmonitor>8</conditionmonitor><includedinparent>False</includedinparent><children /><location /><notes /><discountedcost>False</discountedcost></gear>
+		<gear>
+			<guid>7e1dfdbc-fc00-4806-840a-d3d5cd6b6940</guid>
+			<name>Wrapper</name>
+			<category>Hacking Programs</category>
+			<capacity />
+			<armorcapacity />
+			<minrating>0</minrating>
+			<maxrating>0</maxrating>
+			<rating>0</rating>
+			<qty>1</qty>
+			<avail>4R</avail>
+			<avail3 />
+			<avail6 />
+			<avail10 />
+			<cost>250</cost>
+			<cost3 />
+			<cost6 />
+			<cost10 />
+			<extra />
+			<bonded>False</bonded>
+			<equipped>True</equipped>
+			<homenode>False</homenode>
+			<bonus />
+			<source>SR5</source>
+			<page>245</page>
+			<devicerating>0</devicerating>
+			<gearname />
+			<matrixcmfilled>0</matrixcmfilled>
+			<conditionmonitor>8</conditionmonitor>
+			<includedinparent>False</includedinparent>
+			<children />
+			<location />
+			<notes />
+			<discountedcost>False</discountedcost>
+		</gear>
 	</gears>
 	<vehicles>
 		<vehicle>
@@ -3274,7 +3206,7 @@
 			<addslots>4</addslots>
 			<source>SR5</source>
 			<page>463</page>
-			<physicalcmfilled>16</physicalcmfilled>
+			<physicalcmfilled>0</physicalcmfilled>
 			<matrixcmfilled>0</matrixcmfilled>
 			<vehiclename />
 			<homenode>False</homenode>
@@ -3301,31 +3233,36 @@
 					<extra />
 					<bonded>False</bonded>
 					<equipped>True</equipped>
-					<homenode>False</homenode>
-					<bonus />
-					<source>SR5</source>
-					<page>445</page>
-					<devicerating>0</devicerating>
-					<gearname />
-					<matrixcmfilled>0</matrixcmfilled>
-					<conditionmonitor>8</conditionmonitor>
-					<includedinparent>True</includedinparent>
-					<children />
-					<location />
-					<notes />
-					<discountedcost>False</discountedcost>
-				</gear>
+					<homenode>False</homenode><bonus></bonus><source>SR5</source><page>445</page><devicerating>0</devicerating><gearname /><matrixcmfilled>0</matrixcmfilled><conditionmonitor>8</conditionmonitor><includedinparent>True</includedinparent><children /><location /><notes /><discountedcost>False</discountedcost></gear>
 			</gears>
 			<weapons />
 			<notes />
 			<discountedcost>False</discountedcost>
 		</vehicle>
 	</vehicles>
-	<metamagics />
+	<metamagics>
+		<metamagic>
+			<guid>36291cd9-3583-4ad7-84bd-ea2de50a6d7a</guid>
+			<name>Sleaze Upgrade</name>
+			<source>SR5</source>
+			<paidwithkarma>False</paidwithkarma>
+			<page>258</page>
+			<grade>1</grade><bonus><livingpersona><sleaze>1</sleaze></livingpersona></bonus><improvementsource>Echo</improvementsource><notes /></metamagic>
+	</metamagics>
 	<arts />
 	<enhancements />
 	<critterpowers />
-	<initiationgrades />
+	<initiationgrades>
+		<initiationgrade>
+			<guid>7067f3ef-1e8f-4b0d-88a4-e3772001f667</guid>
+			<res>True</res>
+			<grade>1</grade>
+			<group>False</group>
+			<ordeal>True</ordeal>
+			<schooling>False</schooling>
+			<notes />
+		</initiationgrade>
+	</initiationgrades>
 	<improvements>
 		<improvement>
 			<improvedname />
@@ -3486,6 +3423,27 @@
 			<exclude />
 			<improvementttype>Text</improvementttype>
 			<improvementsource>Gear</improvementsource>
+			<custom>False</custom>
+			<customname />
+			<customid />
+			<customgroup />
+			<addtorating>False</addtorating>
+			<enabled>True</enabled>
+			<order>0</order>
+			<notes />
+		</improvement>
+		<improvement>
+			<improvedname>RES</improvedname>
+			<sourcename>Submersion</sourcename>
+			<min>0</min>
+			<max>1</max>
+			<aug>0</aug>
+			<augmax>0</augmax>
+			<val>0</val>
+			<rating>1</rating>
+			<exclude />
+			<improvementttype>Attribute</improvementttype>
+			<improvementsource>Submersion</improvementsource>
 			<custom>False</custom>
 			<customname />
 			<customid />
@@ -3867,6 +3825,111 @@
 			<undo>
 				<karmatype>ImproveAttribute</karmatype>
 				<nuyentype>ManualAdd</nuyentype>
+				<objectid />
+				<qty>0</qty>
+				<extra />
+			</undo>
+		</expense>
+		<expense>
+			<guid>46ebf460-11bb-4226-a022-12729049a4d6</guid>
+			<date>2016-08-27T16:01:14</date>
+			<amount>-80</amount>
+			<reason>Purchased Gear Browse</reason>
+			<type>Nuyen</type>
+			<refund>False</refund>
+			<undo>
+				<karmatype>ImproveAttribute</karmatype>
+				<nuyentype>AddGear</nuyentype>
+				<objectid>c02f89b1-60aa-4fd1-adcc-2ecf1b852ae3</objectid>
+				<qty>1</qty>
+				<extra />
+			</undo>
+		</expense>
+		<expense>
+			<guid>a05eadb1-a164-4de9-975a-618fbdb6ee69</guid>
+			<date>2016-08-27T16:22:42</date>
+			<amount>-250</amount>
+			<reason>Purchased Gear Wrapper</reason>
+			<type>Nuyen</type>
+			<refund>False</refund>
+			<undo>
+				<karmatype>ImproveAttribute</karmatype>
+				<nuyentype>AddGear</nuyentype>
+				<objectid>7e1dfdbc-fc00-4806-840a-d3d5cd6b6940</objectid>
+				<qty>1</qty>
+				<extra />
+			</undo>
+		</expense>
+		<expense>
+			<guid>d0cefb9a-ebd6-4505-9bcf-cff2dee0b6b0</guid>
+			<date>2016-08-27T21:54:22</date>
+			<amount>-70</amount>
+			<reason>A dozen soyburgers, delivered hot and fresh</reason>
+			<type>Nuyen</type>
+			<refund>False</refund>
+			<undo>
+				<karmatype>ImproveAttribute</karmatype>
+				<nuyentype>ManualSubtract</nuyentype>
+				<objectid />
+				<qty>0</qty>
+				<extra />
+			</undo>
+		</expense>
+		<expense>
+			<guid>3d32b62e-067b-4221-ad53-56fe2a670206</guid>
+			<date>2016-08-27T22:19:30</date>
+			<amount>15</amount>
+			<reason>Exterminated Bane Sidhe, captured Faolin</reason>
+			<type>Karma</type>
+			<refund>False</refund>
+			<undo>
+				<karmatype>ManualAdd</karmatype>
+				<nuyentype>AddCyberware</nuyentype>
+				<objectid />
+				<qty>0</qty>
+				<extra />
+			</undo>
+		</expense>
+		<expense>
+			<guid>92639111-86a0-4114-b96a-c9ab054bd273</guid>
+			<date>2016-08-27T22:19:51</date>
+			<amount>60000</amount>
+			<reason>Exterminated Bane Sidhe, captured Faolin</reason>
+			<type>Nuyen</type>
+			<refund>False</refund>
+			<undo>
+				<karmatype>ImproveAttribute</karmatype>
+				<nuyentype>ManualAdd</nuyentype>
+				<objectid />
+				<qty>0</qty>
+				<extra />
+			</undo>
+		</expense>
+		<expense>
+			<guid>328bb207-b7ae-4f6f-a666-fb2468d0762d</guid>
+			<date>2016-08-27T22:22:04</date>
+			<amount>-12</amount>
+			<reason>Submersion Grade 0 -&gt; 1</reason>
+			<type>Karma</type>
+			<refund>False</refund>
+			<undo>
+				<karmatype>ImproveInitiateGrade</karmatype>
+				<nuyentype>AddCyberware</nuyentype>
+				<objectid>7067f3ef-1e8f-4b0d-88a4-e3772001f667</objectid>
+				<qty>0</qty>
+				<extra />
+			</undo>
+		</expense>
+		<expense>
+			<guid>ee3638a0-c8af-4a59-9bb3-d171c632104f</guid>
+			<date>2016-08-27T22:31:04</date>
+			<amount>-5000</amount>
+			<reason>Repairing VanNessa</reason>
+			<type>Nuyen</type>
+			<refund>False</refund>
+			<undo>
+				<karmatype>ImproveAttribute</karmatype>
+				<nuyentype>ManualSubtract</nuyentype>
 				<objectid />
 				<qty>0</qty>
 				<extra />
