@@ -39,7 +39,7 @@
 	<alias>Shade</alias>
 	<playername>Chris</playername>
 	<gamenotes />
-	<karma>4</karma>
+	<karma>14</karma>
 	<totalkarma>0</totalkarma>
 	<special>0</special>
 	<totalspecial>0</totalspecial>
@@ -54,7 +54,7 @@
 	<burntstreetcred>0</burntstreetcred>
 	<created>True</created>
 	<maxavail>12</maxavail>
-	<nuyen>119150</nuyen>
+	<nuyen>115220</nuyen>
 	<startingnuyen>6000</startingnuyen>
 	<adeptwaydiscount>0</adeptwaydiscount>
 	<sumtoten>10</sumtoten>
@@ -2387,10 +2387,26 @@
 			<mademan>False</mademan>
 		</contact>
 		<contact>
-			<name>Klonk</name>
-			<role>Technomancer Trainer</role>
+			<name>Screech (Onomatopoeia)</name>
+			<role>Technomancer</role>
 			<location>The trix</location>
 			<connection>1</connection>
+			<loyalty>1</loyalty>
+			<type>Contact</type>
+			<file />
+			<relative />
+			<notes />
+			<groupname />
+			<colour>0</colour>
+			<free>False</free>
+			<group>False</group>
+			<mademan>False</mademan>
+		</contact>
+		<contact>
+			<name>MC Chicky Nugg</name>
+			<role>Rapper</role>
+			<location>Boston</location>
+			<connection>4</connection>
 			<loyalty>1</loyalty>
 			<type>Contact</type>
 			<file />
@@ -2617,6 +2633,7 @@
 			<print>True</print>
 			<qualitytype>Positive</qualitytype>
 			<qualitysource>Metatype</qualitysource>
+			<mutant />
 			<source>SR5</source>
 			<page>66</page><bonus></bonus><notes /><id>02e76a38-304e-4a0e-93a3-ad2938306afc</id></quality>
 		<quality>
@@ -2630,6 +2647,7 @@
 			<print>True</print>
 			<qualitytype>Positive</qualitytype>
 			<qualitysource>Metatype</qualitysource>
+			<mutant />
 			<source>SR5</source>
 			<page>69</page><bonus></bonus><notes /><id>c4b35412-bd91-45b4-b428-29da7edd5ff4</id></quality>
 		<quality>
@@ -2643,6 +2661,7 @@
 			<print>True</print>
 			<qualitytype>Positive</qualitytype>
 			<qualitysource>Selected</qualitysource>
+			<mutant />
 			<source>SR5</source>
 			<page>72</page><bonus></bonus><notes /><id>5b19dbcd-fb69-4a02-a25a-7ac5342ca576</id></quality>
 		<quality>
@@ -2656,6 +2675,7 @@
 			<print>True</print>
 			<qualitytype>Negative</qualitytype>
 			<qualitysource>Selected</qualitysource>
+			<mutant />
 			<source>RF</source>
 			<page>157</page><bonus></bonus><notes /></quality>
 		<quality>
@@ -2669,6 +2689,7 @@
 			<print>True</print>
 			<qualitytype>Positive</qualitytype>
 			<qualitysource>Selected</qualitysource>
+			<mutant />
 			<source>SR5</source>
 			<page>74</page><bonus></bonus><notes /><id>9f25cc0a-c47c-49dd-953c-8fe60628bae8</id></quality>
 	</qualities>
@@ -2680,7 +2701,7 @@
 			<dice>3</dice>
 			<baselifestyle>Low</baselifestyle>
 			<multiplier>60</multiplier>
-			<months>1</months>
+			<months>3</months>
 			<roommates>0</roommates>
 			<percentage>100</percentage>
 			<lifestylename />
@@ -2798,7 +2819,7 @@
 			<minrating>0</minrating>
 			<maxrating>0</maxrating>
 			<rating>0</rating>
-			<qty>50</qty>
+			<qty>49</qty>
 			<avail>2R</avail>
 			<avail3 />
 			<avail6 />
@@ -3171,20 +3192,7 @@
 			<extra />
 			<bonded>False</bonded>
 			<equipped>True</equipped>
-			<homenode>False</homenode>
-			<bonus />
-			<source>SR5</source>
-			<page>245</page>
-			<devicerating>0</devicerating>
-			<gearname />
-			<matrixcmfilled>0</matrixcmfilled>
-			<conditionmonitor>8</conditionmonitor>
-			<includedinparent>False</includedinparent>
-			<children />
-			<location />
-			<notes />
-			<discountedcost>False</discountedcost>
-		</gear>
+			<homenode>False</homenode><bonus></bonus><source>SR5</source><page>245</page><devicerating>0</devicerating><gearname /><matrixcmfilled>0</matrixcmfilled><conditionmonitor>8</conditionmonitor><includedinparent>False</includedinparent><children /><location /><notes /><discountedcost>False</discountedcost></gear>
 	</gears>
 	<vehicles>
 		<vehicle>
@@ -3930,6 +3938,96 @@
 			<undo>
 				<karmatype>ImproveAttribute</karmatype>
 				<nuyentype>ManualSubtract</nuyentype>
+				<objectid />
+				<qty>0</qty>
+				<extra />
+			</undo>
+		</expense>
+		<expense>
+			<guid>9ee732d5-41dd-4e4b-91ae-9edf0ed5dd32</guid>
+			<date>2016-10-22T22:05:04</date>
+			<amount>4</amount>
+			<reason>Knocked out Viscious Valerie at Uncle Rusty's</reason>
+			<type>Karma</type>
+			<refund>False</refund>
+			<undo>
+				<karmatype>ManualAdd</karmatype>
+				<nuyentype>AddCyberware</nuyentype>
+				<objectid />
+				<qty>0</qty>
+				<extra />
+			</undo>
+		</expense>
+		<expense>
+			<guid>e3c7a36c-1325-438d-8266-cd41bace39a9</guid>
+			<date>2017-01-29T16:27:01</date>
+			<amount>-80</amount>
+			<reason>Shitty motel for Vicious Valerie to sleep it off</reason>
+			<type>Nuyen</type>
+			<refund>False</refund>
+			<undo>
+				<karmatype>ImproveAttribute</karmatype>
+				<nuyentype>ManualSubtract</nuyentype>
+				<objectid />
+				<qty>0</qty>
+				<extra />
+			</undo>
+		</expense>
+		<expense>
+			<guid>0f630729-4b69-477c-a0a1-b2214bb3ae03</guid>
+			<date>2017-01-29T16:42:12</date>
+			<amount>-2000</amount>
+			<reason>Purchased Lifestyle Hacker Lair</reason>
+			<type>Nuyen</type>
+			<refund>False</refund>
+			<undo>
+				<karmatype>ImproveAttribute</karmatype>
+				<nuyentype>IncreaseLifestyle</nuyentype>
+				<objectid>Hacker Lair</objectid>
+				<qty>0</qty>
+				<extra />
+			</undo>
+		</expense>
+		<expense>
+			<guid>b9367fc9-8320-4cc8-bf07-128258c1c960</guid>
+			<date>2017-01-29T16:42:49</date>
+			<amount>-2000</amount>
+			<reason>Purchased Lifestyle Hacker Lair</reason>
+			<type>Nuyen</type>
+			<refund>False</refund>
+			<undo>
+				<karmatype>ImproveAttribute</karmatype>
+				<nuyentype>IncreaseLifestyle</nuyentype>
+				<objectid>Hacker Lair</objectid>
+				<qty>0</qty>
+				<extra />
+			</undo>
+		</expense>
+		<expense>
+			<guid>ebf7e8d5-9c0a-4edf-aab3-e3cdd0c5a98b</guid>
+			<date>2017-01-29T19:18:48</date>
+			<amount>150</amount>
+			<reason>Payment from Vicious Valerie's manager for helping her discretely.</reason>
+			<type>Nuyen</type>
+			<refund>False</refund>
+			<undo>
+				<karmatype>ImproveAttribute</karmatype>
+				<nuyentype>ManualAdd</nuyentype>
+				<objectid />
+				<qty>0</qty>
+				<extra />
+			</undo>
+		</expense>
+		<expense>
+			<guid>37c4d46b-970e-4476-b7db-6327d0ed2778</guid>
+			<date>2017-01-29T19:19:51</date>
+			<amount>6</amount>
+			<reason>Saving Vicious Valerie's life from her OD on Kamikaze Grade 10</reason>
+			<type>Karma</type>
+			<refund>False</refund>
+			<undo>
+				<karmatype>ManualAdd</karmatype>
+				<nuyentype>AddCyberware</nuyentype>
 				<objectid />
 				<qty>0</qty>
 				<extra />
