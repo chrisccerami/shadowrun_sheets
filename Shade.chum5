@@ -28,7 +28,7 @@
 	<sex>No</sex>
 	<age>25</age>
 	<eyes>Grey</eyes>
-	<height>11ft standing/7ft seated</height>
+	<height>11ft long/7ft seated</height>
 	<weight>750</weight>
 	<skin>Brown</skin>
 	<hair>Silver</hair>
@@ -39,7 +39,7 @@
 	<alias>Shade</alias>
 	<playername>Chris</playername>
 	<gamenotes />
-	<karma>14</karma>
+	<karma>0</karma>
 	<totalkarma>0</totalkarma>
 	<special>0</special>
 	<totalspecial>0</totalspecial>
@@ -54,7 +54,7 @@
 	<burntstreetcred>0</burntstreetcred>
 	<created>True</created>
 	<maxavail>12</maxavail>
-	<nuyen>115220</nuyen>
+	<nuyen>89200</nuyen>
 	<startingnuyen>6000</startingnuyen>
 	<adeptwaydiscount>0</adeptwaydiscount>
 	<sumtoten>10</sumtoten>
@@ -203,11 +203,11 @@
 			<metatypemin>1</metatypemin>
 			<metatypemax>6</metatypemax>
 			<metatypeaugmax>6</metatypeaugmax>
-			<value>3</value>
+			<value>4</value>
 			<base>1</base>
 			<karma>0</karma>
 			<augmodifier>0</augmodifier>
-			<totalvalue>3</totalvalue>
+			<totalvalue>4</totalvalue>
 		</attribute>
 		<attribute>
 			<name>MAG</name>
@@ -2633,7 +2633,6 @@
 			<print>True</print>
 			<qualitytype>Positive</qualitytype>
 			<qualitysource>Metatype</qualitysource>
-			<mutant />
 			<source>SR5</source>
 			<page>66</page><bonus></bonus><notes /><id>02e76a38-304e-4a0e-93a3-ad2938306afc</id></quality>
 		<quality>
@@ -2647,7 +2646,6 @@
 			<print>True</print>
 			<qualitytype>Positive</qualitytype>
 			<qualitysource>Metatype</qualitysource>
-			<mutant />
 			<source>SR5</source>
 			<page>69</page><bonus></bonus><notes /><id>c4b35412-bd91-45b4-b428-29da7edd5ff4</id></quality>
 		<quality>
@@ -2661,7 +2659,6 @@
 			<print>True</print>
 			<qualitytype>Positive</qualitytype>
 			<qualitysource>Selected</qualitysource>
-			<mutant />
 			<source>SR5</source>
 			<page>72</page><bonus></bonus><notes /><id>5b19dbcd-fb69-4a02-a25a-7ac5342ca576</id></quality>
 		<quality>
@@ -2675,7 +2672,6 @@
 			<print>True</print>
 			<qualitytype>Negative</qualitytype>
 			<qualitysource>Selected</qualitysource>
-			<mutant />
 			<source>RF</source>
 			<page>157</page><bonus></bonus><notes /></quality>
 		<quality>
@@ -2689,7 +2685,6 @@
 			<print>True</print>
 			<qualitytype>Positive</qualitytype>
 			<qualitysource>Selected</qualitysource>
-			<mutant />
 			<source>SR5</source>
 			<page>74</page><bonus></bonus><notes /><id>9f25cc0a-c47c-49dd-953c-8fe60628bae8</id></quality>
 	</qualities>
@@ -3193,6 +3188,80 @@
 			<bonded>False</bonded>
 			<equipped>True</equipped>
 			<homenode>False</homenode><bonus></bonus><source>SR5</source><page>245</page><devicerating>0</devicerating><gearname /><matrixcmfilled>0</matrixcmfilled><conditionmonitor>8</conditionmonitor><includedinparent>False</includedinparent><children /><location /><notes /><discountedcost>False</discountedcost></gear>
+		<gear>
+			<guid>928179e3-462b-499c-8a6b-d06cc32f39c1</guid>
+			<name>Activesoft</name>
+			<category>Skillsofts</category>
+			<capacity />
+			<armorcapacity />
+			<minrating>0</minrating>
+			<maxrating>6</maxrating>
+			<rating>6</rating>
+			<qty>1</qty>
+			<avail>8</avail>
+			<avail3 />
+			<avail6 />
+			<avail10 />
+			<cost>(Rating * 5000) * 0.1</cost>
+			<cost3 />
+			<cost6 />
+			<cost10 />
+			<extra>Medicine, Hacked</extra>
+			<bonded>False</bonded>
+			<equipped>True</equipped>
+			<homenode>False</homenode><bonus><selectskill /></bonus><source>SR5</source><page>442</page><devicerating>0</devicerating><gearname /><matrixcmfilled>0</matrixcmfilled><conditionmonitor>8</conditionmonitor><includedinparent>False</includedinparent><children /><location /><notes /><discountedcost>False</discountedcost></gear>
+		<gear>
+			<guid>3ada89c9-0c36-488c-bc8b-4022a4ea697d</guid>
+			<name>Fairlight Caliban</name>
+			<category>Commlinks</category>
+			<armorcapacity>[2]</armorcapacity>
+			<maxrating>0</maxrating>
+			<rating>0</rating>
+			<qty>1</qty>
+			<avail>14</avail>
+			<cost>8000</cost>
+			<extra />
+			<bonded>False</bonded>
+			<equipped>True</equipped>
+			<homenode>False</homenode>
+			<overclocked>False</overclocked>
+			<bonus />
+			<source>SR5</source>
+			<page>438</page>
+			<devicerating>7</devicerating>
+			<attack>0</attack>
+			<sleaze>0</sleaze>
+			<dataprocessing>7</dataprocessing>
+			<firewall>7</firewall>
+			<gearname />
+			<children />
+			<location />
+			<notes />
+			<discountedcost>False</discountedcost>
+			<active>False</active>
+		</gear>
+		<gear>
+			<guid>6d3efa65-af44-4119-b235-9b3741b60fa8</guid>
+			<name>Fake SIN</name>
+			<category>ID/Credsticks</category>
+			<capacity />
+			<armorcapacity />
+			<minrating>0</minrating>
+			<maxrating>6</maxrating>
+			<rating>6</rating>
+			<qty>1</qty>
+			<avail>(Rating * 3)F</avail>
+			<avail3 />
+			<avail6 />
+			<avail10 />
+			<cost>Rating * 2500</cost>
+			<cost3 />
+			<cost6 />
+			<cost10 />
+			<extra>Mehmet Nazim</extra>
+			<bonded>False</bonded>
+			<equipped>True</equipped>
+			<homenode>False</homenode><bonus><selecttext /></bonus><source>SR5</source><page>442</page><devicerating>0</devicerating><gearname /><matrixcmfilled>0</matrixcmfilled><conditionmonitor>8</conditionmonitor><includedinparent>False</includedinparent><children /><location /><notes /><discountedcost>False</discountedcost></gear>
 	</gears>
 	<vehicles>
 		<vehicle>
@@ -3452,6 +3521,27 @@
 			<exclude />
 			<improvementttype>Attribute</improvementttype>
 			<improvementsource>Submersion</improvementsource>
+			<custom>False</custom>
+			<customname />
+			<customid />
+			<customgroup />
+			<addtorating>False</addtorating>
+			<enabled>True</enabled>
+			<order>0</order>
+			<notes />
+		</improvement>
+		<improvement>
+			<improvedname>Mehmet Nazim</improvedname>
+			<sourcename>6d3efa65-af44-4119-b235-9b3741b60fa8</sourcename>
+			<min>0</min>
+			<max>0</max>
+			<aug>0</aug>
+			<augmax>0</augmax>
+			<val>0</val>
+			<rating>1</rating>
+			<exclude />
+			<improvementttype>Text</improvementttype>
+			<improvementsource>Gear</improvementsource>
 			<custom>False</custom>
 			<customname />
 			<customid />
@@ -4029,6 +4119,96 @@
 				<karmatype>ManualAdd</karmatype>
 				<nuyentype>AddCyberware</nuyentype>
 				<objectid />
+				<qty>0</qty>
+				<extra />
+			</undo>
+		</expense>
+		<expense>
+			<guid>f4ea455a-8e49-4b5c-b8da-f2715bff20bc</guid>
+			<date>2017-06-03T13:57:48</date>
+			<amount>-3000</amount>
+			<reason>Purchased Gear Activesoft</reason>
+			<type>Nuyen</type>
+			<refund>False</refund>
+			<undo>
+				<karmatype>ImproveAttribute</karmatype>
+				<nuyentype>AddGear</nuyentype>
+				<objectid>928179e3-462b-499c-8a6b-d06cc32f39c1</objectid>
+				<qty>1</qty>
+				<extra />
+			</undo>
+		</expense>
+		<expense>
+			<guid>7f962de2-b457-40df-ba3c-3ace84f7e753</guid>
+			<date>2017-06-03T14:15:26</date>
+			<amount>-20</amount>
+			<reason>Bought Pancakes from Daisy</reason>
+			<type>Nuyen</type>
+			<refund>False</refund>
+			<undo>
+				<karmatype>ImproveAttribute</karmatype>
+				<nuyentype>ManualSubtract</nuyentype>
+				<objectid />
+				<qty>0</qty>
+				<extra />
+			</undo>
+		</expense>
+		<expense>
+			<guid>ea783825-b2f1-4655-af74-b7234bdd8d89</guid>
+			<date>2017-06-03T17:28:29</date>
+			<amount>-8000</amount>
+			<reason>Purchased Gear Fairlight Caliban</reason>
+			<type>Nuyen</type>
+			<refund>False</refund>
+			<undo>
+				<karmatype>ImproveAttribute</karmatype>
+				<nuyentype>AddGear</nuyentype>
+				<objectid>3ada89c9-0c36-488c-bc8b-4022a4ea697d</objectid>
+				<qty>1</qty>
+				<extra />
+			</undo>
+		</expense>
+		<expense>
+			<guid>6afa5008-684c-4732-9387-aa67f0119c3a</guid>
+			<date>2017-06-03T17:34:58</date>
+			<amount>-15000</amount>
+			<reason>Purchased Gear Fake SIN</reason>
+			<type>Nuyen</type>
+			<refund>False</refund>
+			<undo>
+				<karmatype>ImproveAttribute</karmatype>
+				<nuyentype>AddGear</nuyentype>
+				<objectid>6d3efa65-af44-4119-b235-9b3741b60fa8</objectid>
+				<qty>1</qty>
+				<extra />
+			</undo>
+		</expense>
+		<expense>
+			<guid>3ae55cf9-f7a1-4601-a8bd-9cf6403bcf63</guid>
+			<date>2017-06-03T17:35:56</date>
+			<amount>6</amount>
+			<reason>Stealing info from Bill's porn dungeon</reason>
+			<type>Karma</type>
+			<refund>False</refund>
+			<undo>
+				<karmatype>ManualAdd</karmatype>
+				<nuyentype>AddCyberware</nuyentype>
+				<objectid />
+				<qty>0</qty>
+				<extra />
+			</undo>
+		</expense>
+		<expense>
+			<guid>3329b2b3-8afc-4814-acdc-bdd9d029434c</guid>
+			<date>2017-06-03T17:37:33</date>
+			<amount>-20</amount>
+			<reason>Attribute EDG 3 -&gt; 4</reason>
+			<type>Karma</type>
+			<refund>False</refund>
+			<undo>
+				<karmatype>ImproveAttribute</karmatype>
+				<nuyentype>AddCyberware</nuyentype>
+				<objectid>EDG</objectid>
 				<qty>0</qty>
 				<extra />
 			</undo>
